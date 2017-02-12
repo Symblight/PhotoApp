@@ -55,6 +55,9 @@ var Account = exports.Account = {
     }, {
         "src": "https://pp.vk.me/c606620/v606620424/7c58/_MLrQGLNDg8.jpg",
         "commits": []
+    }, {
+        "src": "https://drscdn.500px.org/photo/42998730/q%3D80_m%3D1000/3bfb2aaac25c6c9ccf84bc49565d4ccb",
+        "commits": []
     }]
 };
 //# sourceMappingURL=data.js.map
