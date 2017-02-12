@@ -45,19 +45,33 @@ var Account = exports.Account = {
     "password": "1",
     "posts": [{
         "src": "https://pp.vk.me/c836535/v836535424/27031/QzMHQ9lpqgE.jpg",
-        "commits": []
+        "commits": [],
+        "like": [],
+        "date": ""
     }, {
         "src": "https://pp.vk.me/c836535/v836535424/268f5/9_8XiNpLzGo.jpg",
-        "commits": []
+        "commits": [],
+        "like": [],
+        "date": ""
     }, {
         "src": "https://pp.vk.me/c626920/v626920424/31e4b/oFtdliop-8Y.jpg",
-        "commits": []
+        "commits": [],
+        "like": [],
+        "date": ""
     }, {
         "src": "https://pp.vk.me/c606620/v606620424/7c58/_MLrQGLNDg8.jpg",
-        "commits": []
+        "commits": [],
+        "like": [],
+        "date": ""
     }, {
         "src": "https://drscdn.500px.org/photo/42998730/q%3D80_m%3D1000/3bfb2aaac25c6c9ccf84bc49565d4ccb",
-        "commits": []
+        "commits": [],
+        "date": ""
+    }],
+    "following": [{
+        "username": "pupsik"
+    }, {
+        "username": "Lusky"
     }]
 };
 //# sourceMappingURL=data.js.map

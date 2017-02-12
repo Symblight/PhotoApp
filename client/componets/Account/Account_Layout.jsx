@@ -12,7 +12,7 @@ export default class Account_layout extends React.Component{
                 <Col><InfoPanel/></Col>
             </Row>
             <Row>
-                <Col><PostList/></Col>
+                <Col><PostList /></Col>
             </Row>
         </Grid>
     }
