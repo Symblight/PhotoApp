@@ -28,7 +28,7 @@ export default class Post extends React.Component{
     }
 
     render(){
-        return <div className="well_w">
+        return <article className="well_w">
             <Panel className="wrapper">
                 <div className="wr_r"><h4>{this.props.header}</h4></div>
                 <Row>
@@ -51,6 +51,6 @@ export default class Post extends React.Component{
                     <Col xs={6} md={4}><Button onClick={this.handleAddCommit.bind(this)}>commit</Button></Col>
                 </Row>
             </Panel>
-        </div>
+        </article>
     }
 }

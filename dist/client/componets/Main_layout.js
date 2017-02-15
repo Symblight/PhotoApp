@@ -22,6 +22,10 @@ var _SignIn = require('./SignForms/SignIn.jsx');
 
 var _SignIn2 = _interopRequireDefault(_SignIn);
 
+var _Footer_form = require('./Footer_form.jsx');
+
+var _Footer_form2 = _interopRequireDefault(_Footer_form);
+
 require('./Main_l.less');
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
@@ -50,17 +54,17 @@ var Main_layout = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 'div',
-                null,
+                { className: 'container_m' },
                 api.Account.id ? _react2.default.createElement(
-                    'div',
-                    null,
-                    ' ',
+                    'section',
+                    { className: 'selc' },
                     _react2.default.createElement(_Navbar2.default, null),
                     _react2.default.createElement(
-                        'div',
+                        'main',
                         { className: 'main_wrap' },
                         this.props.children
-                    )
+                    ),
+                    _react2.default.createElement(_Footer_form2.default, null)
                 ) : _react2.default.createElement(_SignIn2.default, null)
             );
         }

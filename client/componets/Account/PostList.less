@@ -1,28 +1,62 @@
 .img_content {
-  display: inline-block;
-  width: 293px;
-  height: 293px;
+  width: 100%;
+  height: 100%;
+}
+
+.b_img{
+  display: block;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
 }
-.img_content img {
-  width: 300px;
-  border: none;
-  margin: 0;
-  padding: 0;
+.b_bord{
+  background-color: #edeeee;
+  display: block;
+  width: 100%;
 }
 
-.post{
-  text-align: center;
-  margin: 0;
+.flex-container{
   padding: 0;
-  width: 293px;
-  height: 293px;
-  margin-right: 28px;
+  margin: 0;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row nowrap;
+  flex-direction: column;
+}
+.row_flex{
+  margin-bottom: 2%;
+}
+.row_flex{
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  -ms-flex-direction: row;
 }
 
+.well_list{
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
 
-.post_content{
-  text-align: center;
+.well_post{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.well_a{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+}
+
+.r_w{
+  margin-right: 2%;
 }

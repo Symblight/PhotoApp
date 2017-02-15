@@ -40,32 +40,28 @@ var Account = exports.Account = {
     "username": "Symbx",
     "first_name": "Aleksey",
     "last_name": "Tkachenko",
-    "avatar": "https://pbs.twimg.com/profile_images/797459833297534976/OmxPwxaE.jpg",
+    "avatar": "https://pp.vk.me/c837732/v837732121/23b9a/1jSQIcn88X4.jpg",
     "email": "symblight@gmail.com",
     "password": "1",
     "posts": [{
-        "src": "https://pp.vk.me/c836535/v836535424/27031/QzMHQ9lpqgE.jpg",
+        "src": "https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e15/12976552_262235554122557_2053524394_n.jpg",
         "commits": [],
         "like": [],
         "date": ""
     }, {
-        "src": "https://pp.vk.me/c836535/v836535424/268f5/9_8XiNpLzGo.jpg",
+        "src": "https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e15/14607101_231474627287070_4909730910246535168_n.jpg",
         "commits": [],
         "like": [],
         "date": ""
     }, {
-        "src": "https://pp.vk.me/c626920/v626920424/31e4b/oFtdliop-8Y.jpg",
+        "src": "https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e15/13744960_1126806930717982_1638727916_n.jpg",
         "commits": [],
         "like": [],
         "date": ""
     }, {
-        "src": "https://pp.vk.me/c606620/v606620424/7c58/_MLrQGLNDg8.jpg",
+        "src": "https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e15/11881907_1666528930237649_1150081194_n.jpg",
         "commits": [],
         "like": [],
-        "date": ""
-    }, {
-        "src": "https://drscdn.500px.org/photo/42998730/q%3D80_m%3D1000/3bfb2aaac25c6c9ccf84bc49565d4ccb",
-        "commits": [],
         "date": ""
     }],
     "following": [{

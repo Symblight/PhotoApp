@@ -1,21 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router';
 import './Nav.less';
-import {Navbar,Nav,NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
-import {LinkContainer} from 'react-router-bootstrap';
+import Home from './menu items/Home.jsx';
+
 
 export default class Navbar_form extends React.Component{
     render(){
-        return<Navbar className="nav_wrap">
-            <Navbar.Header>
-                <Navbar.Brand>
-                    <Link to="/"> Photo app</Link>
-                </Navbar.Brand>
-            </Navbar.Header>
-            <Nav>
-                <NavItem eventKey={1}>Search</NavItem>
-                <LinkContainer to="/account"><NavItem eventKey={2}>Account</NavItem></LinkContainer>
-            </Nav>
-        </Navbar>
+        return<nav className="nav_wrap">
+            <ul className="wrap_menu_nav">
+                <li className="el_menu"><Link to="/"><Home/></Link></li>
+                <li className="el_menu">Search</li>
+                <li className="el_menu"><Link to="/account">Account</Link></li>
+            </ul>
+        </nav>
     }
 }
