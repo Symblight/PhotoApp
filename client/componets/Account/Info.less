@@ -5,19 +5,34 @@
 
 .avatar{
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+}
+
+@media (min-width: 735px) {
+  .avatar{
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 736px) {
+  .avatar{
+    height: 77px;
+    width: 77px;
+  }
 }
 
 .menu_info{
   background: #ffff8d;
-  margin-right: 2%;
   flex:  3 1 100px;
 }
 
 .avatar_l{
   background: #b9f6ca;
   padding-right: 2%;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
 }
 
 .btn_name{

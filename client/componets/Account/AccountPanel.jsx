@@ -11,7 +11,7 @@ export default class InfoPanel extends React.Component{
         }
     }
     render(){
-        return<div className="container_i">
+        return<header className="container_i">
                 <div className="avatar_l"><img src={api.Account.avatar} className="avatar"/></div>
                 <div className="menu_info">
                     <div className="btn_name">
@@ -19,6 +19,6 @@ export default class InfoPanel extends React.Component{
                         <div><button>Edit account</button></div>
                     </div>
                 </div>
-        </div>
+        </header>
     }
 }
