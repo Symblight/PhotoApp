@@ -12,8 +12,13 @@ export default class InfoPanel extends React.Component{
     }
     render(){
         return<div className="container_i">
-                <div><img src={api.Account.avatar} className="avatar"/></div>
-                <div><h2>{api.Account.username}</h2></div>
+                <div className="avatar_l"><img src={api.Account.avatar} className="avatar"/></div>
+                <div className="menu_info">
+                    <div className="btn_name">
+                        <div><h2>{api.Account.username}</h2></div>
+                        <div><button>Edit account</button></div>
+                    </div>
+                </div>
         </div>
     }
 }
