@@ -24,18 +24,61 @@
 .menu_info{
   background: #ffff8d;
   flex:  3 1 100px;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .avatar_l{
-  background: #b9f6ca;
-  padding-right: 2%;
-  border: 1px solid #dbdbdb;
-  box-sizing: border-box;
-  overflow: hidden;
-  position: relative;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-right: 30px;
+}
+
+.avatar_i{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn_name{
   display: flex;
   flex-direction: row;
+  background: #ff5252;
+  align-items: stretch;
+  margin-bottom: 15px;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.login_i{
+  background: #ffcdd2;
+}
+
+.Login{
+  font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.btn_layout{
+  background: #ba68c8;
+  flex-grow: 1;
+}
+
+.post_i{
+  background: #64b5f6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.name_i{
+  background:  #ffc107;
+  flex-grow: 1;
 }
